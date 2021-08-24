@@ -13,7 +13,7 @@ Go setup your bot at https://discord.com/developers/applications!
 ##### Method 1: (fastest)
     
     git clone https://github.com/luisoos/join-to-create-bot
-    cd 24-7-Discord-Music-Bot
+    cd join-to-create-bot
     npm install
     
 
@@ -24,11 +24,8 @@ Go setup your bot at https://discord.com/developers/applications!
 ### Configuration
 
 Change the strings in the `config.json` file:
- - `TOKEN`: Your Discord-Bot Token (NEVER PUBLISH!)
- - `CHANNEL`: Your Voice-channel ID
- - `SERVER`: Your Discord-Server ID
- - `STATUS`: Your Bot Status (In Discord: Playing...)
- - `LIVE`: YouTube 24/7 Livestream URL
+ - `TOKEN`: Your Discord-Bot Token (NEVER PUBLISH YOUR TOKEN!)
+ - `JOINTOCREATECHANNEL`: ID of the Voice-Channel you want this to be set up
 
 
 ### Start the Bot
